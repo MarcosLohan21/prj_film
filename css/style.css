@@ -1,7 +1,7 @@
 :root {
     --purple: #5821d6;
     --activate: #6433d6;
-    --shadow: #000000;
+    --shadow: #0f0f0f;
     --stroke: #6836da;
 }
 
@@ -11,19 +11,22 @@
 }
 
 body, textarea, main{
+    height: 90vh;
     margin: 0;
     padding: 0;
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    background-image: url(../img/HD-wallpaper-movie-poster-poster-collage-movie-cg.jpg);
-    background-position: center;
+    background-image: linear-gradient(to bottom, rgb(85, 51, 165), rgb(39, 39, 134));
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 
 .navbar-container {
     box-shadow: var(--shadow) 0px 10px 15px 10px;
     width: 100%;
-    background-color: #000000;
+    background-color: #0f0f0f;
     height: 80px;
     padding: 0 2em;
     position: relative;
@@ -32,6 +35,7 @@ body, textarea, main{
 
 .logo {
     width: 50px;
+    height: auto;
     margin-top: 15px;
 }
 
@@ -40,6 +44,7 @@ nav {
 }
 
 .navbar-items {
+    z-index: 0;
     position: absolute;
     right: 0;
     top: 0;

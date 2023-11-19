@@ -1,3 +1,14 @@
+<?php
+session_start();
+//print_r($_SESSION);
+if ((!isset($_SESSION['usuario']) == true) and (!isset($_SESSION['senha']) == true)) {
+    unset($_SESSION['usuario']);
+    unset($_SESSION['senha']);
+    header('Location: login.php');
+}
+$logado = $_SESSION['usuario'];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,22 +16,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Filmes de Marte</title>
+    <link rel="icon" href="../img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./../css/style.css">
     <style>
+        .b {
+            height: 70vh;
+        }
+
         .main-banner {
             padding: 10em 0;
             text-align: center;
+            background-image: linear-gradient(to bottom, rgb(85, 51, 165), rgb(39, 39, 134));
         }
 
-        .teste{
-            background-color: #ffffff;
+        .teste {
             padding: 20px;
+            background-color: #d3d3d323;
+            color: #fff;
             width: fit-content;
             margin: auto;
-            border-radius: 50px;
-            border: 2px solid var(--purple);
-    
+            padding: 1.7rem;
+            border-radius: 1.6rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.514);
+        }
+
+        .teste u {
+            text-decoration: none;
         }
 
         .MainDefault-btn {
@@ -41,24 +63,23 @@
         }
 
         .specialties-container {
-            box-shadow: var(--shadow) 0px 1px 15px 10px;
+            box-shadow: #0f0f0f 3px 3px 10px 19px;
             width: 100%;
             height: 390px;
-            background-color: #000000;
+            background-color: #0f0f0f;
             box-sizing: border-box;
-            padding: 3em 24em;
+            padding: 8em 24em;
             color: #ffffff;
         }
 
         .specialties-container ul {
-            background-color: var(--purple);
+            background-image: linear-gradient(to bottom, rgb(85, 51, 165), rgb(39, 39, 134));
             display: flex;
-            border-radius: 100px;
-            width: 90%;
             margin: 0 auto;
             padding: 10px 10px 10px 10px;
             list-style: none;
-            border: 3px solid;
+            border-radius: 5rem;
+            box-shadow: 0 0 10px rgba(132, 79, 255, 0.788);
         }
 
         .specialties-container ul li {
@@ -73,28 +94,29 @@
     </style>
 </head>
 
-<body>
+<body class="b">
     <div class="container">
         <header>
             <div class="navbar-container">
                 <nav>
-                    <a href="./../html/planos.html"><img class="logo" src="../img/logo.png" </a>
-                        <ul class="navbar-items">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="./../html/planos.html">Planos</a></li>
-                            <li><a href="#">Em Alta</a></li>
-                            <li><a href="../html/login.html" class="default-btn">Login</a></li>
-                        </ul></b>
+                    <img class="logo" src="../img/logo.png">
+                    <ul class="navbar-items">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="../html/emalta.php">Em Alta</a></li>
+                        <li><a href="./sair.php" class="default-btn">Sair</a></li>
+                    </ul></b>
                 </nav>
             </div>
     </div>
 
     <main>
+        
         <div class="main-banner">
             <div class="teste">
                 <h1>Filmes de Marte</h1>
-                <p>Assista agora seu filme e série favoritos aqui</p>
-                <a href="#" class="MainDefault-btn">Registra-se</a>
+                <?php
+                echo "Bem vindo <u>$logado</u>";
+            ?>
             </div>
         </div>
         <section class="specialties-container">
