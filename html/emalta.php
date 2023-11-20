@@ -20,6 +20,45 @@ $logado = $_SESSION['usuario'];
     <link rel="icon" href="../img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./../css/style.css">
     <style>
+                .navbar-items {
+            z-index: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 0;
+            height: 80px;
+            line-height: 80px;
+            margin-right: 47%;
+            list-style: none;
+        }
+
+        .navbar-items li {
+            display: inline-block;
+            text-transform: initial;
+            margin-left: 15px;
+        }
+
+        .navbar-items li a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar-items li a:hover {
+            color: #d3d3d3;
+        }
+
+        .navbar-lv {
+            z-index: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 0;
+            height: 80px;
+            line-height: 80px;
+            color: #fff;
+        }
+
         .b {
             height: 70vh;
         }
@@ -214,19 +253,34 @@ $logado = $_SESSION['usuario'];
 </head>
 
 <body class="b">
-    <div class="container">
-        <header>
-            <div class="navbar-container">
-                <nav>
-                    <img class="logo" src="../img/logo.png">
-                    <ul class="navbar-items">
-                        <li><a href="../php/index.php">Home</a></li>
-                        <li><a href="#">Em Alta</a></li>
+<div class="container">
+    <header>
+        <div class="navbar-container">
+            <nav>
+                <img class="logo" src="../img/logo.png">
+                <ul class="navbar-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="../html/emalta.php">Em Alta</a></li>
+                </ul></b>
+                <ul class="navbar-lv"><b>
                         <li><a href="./sair.php" class="default-btn">Sair</a></li>
-                    </ul></b>
-                </nav>
-            </div>
-    </div>
+                </ul></b>
+            </nav>
+        </div>
+</div>
+<div class="container2">
+    <header>
+        <div class="navbar-container2">
+            <nav>
+                <ul class="navbar-items2">
+                    <li><a href="https://www.adorocinema.com">Site de filmes recomendado</a></li>
+                    <li><a href="./sobcr.php"> Sobre o Criador</a></li>
+                    <li><a href="./redes.php">Redes Sociais</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</div>
 
     <main>
 
