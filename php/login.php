@@ -21,6 +21,23 @@
             </div>
     </div>
     <style>
+        body,
+        textarea,
+        main {
+            height: 90vh;
+        }
+
+        .navbar-items {
+            z-index: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 0;
+            height: 80px;
+            line-height: 80px;
+            list-style: none;
+        }
+
         .background {
             display: flex;
         }

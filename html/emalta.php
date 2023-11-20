@@ -322,51 +322,55 @@ $logado = $_SESSION['usuario'];
                     </li>
 
                     <div class="specialty-item">
-        <h3>Jogos Vorazes – A Cantiga Dos Pássaros e das Serpentes</h3>
-        <div class="image-container">
-            <a href="VER O TRAILER" target="_blank">
-                <img src="../img/1344036588-20230920-jogos-vorazes-passaros-e-serpentes-poster-scaled-1.jpeg" alt="The Hunger Games: The Ballad of Songbirds and Snakes Image" class="resized-image">
-                <p class="image-overlay-text">Ver o Trailer</p>
-            </a>
-            <div class="info">
-                <h1>Jogos Vorazes – A Cantiga Dos Pássaros e das Serpentes</h1>
-                <p><strong>Data de Lançamento:</strong> 15 de novembro de 2023</p>
-                <p><strong>Gênero:</strong> Ficção Científica, Ação, Aventura</p>
-                <p><strong>Duração:</strong> 2 horas e 38 minutos</p>
-                <p><strong>Direção:</strong> Francis Lawrence</p>
-                <p><strong>Roteiro:</strong> Michael Arndt, Michael Lesslie</p>
-                <p><strong>Elenco:</strong> Tom Blyth, Rachel Zegler, Peter Dinklage</p>
-                <p><strong>Classificação:</strong> Não recomendado para menores de 12 anos</p>
-                <br>
-                <h2>Sinopse</h2>
-                <p>Antes de Katniss Everdeen, sua revolução e o envolvimento do 13 distrito, houve o Presidente Snow, ou melhor, Coriolanus Snow. A Cantiga dos Pássaros e das Serpentes é a história do ditador de Panem antes de chegar ao poder. Anos antes, Coriolanus Snow vivia na capital, nascido na grande casa de Snow, que não anda muito bem em popularidade e financeiramente. Ele se prepara para sua oportunidade de glória como um mentor dos Jogos. O destino de sua Casa depende da pequena chance de Coriolanus ser capaz de encantar, enganar e manipular seus colegas para conseguir mentorar o tributo vencedor. Foi lhe dado a tarefa humilhante de mentorar a garota tributo do Distrito 12. Os destinos dos dois estão agora interligados – toda escolha que Coriolanus fizer terá consequências dentro e fora do Jogo. Na arena, a batalha será mortal e a garota terá que sobreviver a cada segundo. Fora da arena, Coriolanus começa a se apegar a garota, mas terá que ter que qualquer passo que der, fará com que a menina e ele mesmo sofram de alguma maneira.</p>
-                <br>
-                <h2>Avaliações</h2>
-                <p class="ratings"><strong>Usuários:</strong> 3,6 (36 notas e 7 críticas)</p>
-                <p class="ratings"><strong>AdoroCinema:</strong> 3,5</p>
+                        <h3>Jogos Vorazes – A Cantiga Dos Pássaros e das Serpentes</h3>
+                        <div class="image-container">
+                            <a href="VER O TRAILER" target="_blank">
+                                <img src="../img/1344036588-20230920-jogos-vorazes-passaros-e-serpentes-poster-scaled-1.jpeg" alt="The Hunger Games: The Ballad of Songbirds and Snakes Image" class="resized-image">
+                                <p class="image-overlay-text">Ver o Trailer</p>
+                            </a>
+                            <div class="info">
+                                <h1>Jogos Vorazes – A Cantiga Dos Pássaros e das Serpentes</h1>
+                                <p><strong>Data de Lançamento:</strong> 15 de novembro de 2023</p>
+                                <p><strong>Gênero:</strong> Ficção Científica, Ação, Aventura</p>
+                                <p><strong>Duração:</strong> 2 horas e 38 minutos</p>
+                                <p><strong>Direção:</strong> Francis Lawrence</p>
+                                <p><strong>Roteiro:</strong> Michael Arndt, Michael Lesslie</p>
+                                <p><strong>Elenco:</strong> Tom Blyth, Rachel Zegler, Peter Dinklage</p>
+                                <p><strong>Classificação:</strong> Não recomendado para menores de 12 anos</p>
+                                <br>
+                                <h2>Sinopse</h2>
+                                <p>Antes de Katniss Everdeen, sua revolução e o envolvimento do 13 distrito, houve o Presidente Snow, ou melhor, Coriolanus Snow. A Cantiga dos Pássaros e das Serpentes é a história do ditador de Panem antes de chegar ao poder. Anos antes, Coriolanus Snow vivia na capital, nascido na grande casa de Snow, que não anda muito bem em popularidade e financeiramente. Ele se prepara para sua oportunidade de glória como um mentor dos Jogos. O destino de sua Casa depende da pequena chance de Coriolanus ser capaz de encantar, enganar e manipular seus colegas para conseguir mentorar o tributo vencedor. Foi lhe dado a tarefa humilhante de mentorar a garota tributo do Distrito 12. Os destinos dos dois estão agora interligados – toda escolha que Coriolanus fizer terá consequências dentro e fora do Jogo. Na arena, a batalha será mortal e a garota terá que sobreviver a cada segundo. Fora da arena, Coriolanus começa a se apegar a garota, mas terá que ter que qualquer passo que der, fará com que a menina e ele mesmo sofram de alguma maneira.</p>
+                                <br>
+                                <h2>Avaliações</h2>
+                                <p class="ratings"><strong>Usuários:</strong> 3,6 (36 notas e 7 críticas)</p>
+                                <p class="ratings"><strong>AdoroCinema:</strong> 3,5</p>
 
-                <div class="streamer-container">
-                    <div class="streamer">
-                        <img src="../img/Cinema-1.jpg" alt="Cinema">
-                        <h3>Cinema</h3>
-                        <p>Em sessão</p>
+                                <div class="streamer-container">
+                                    <div class="streamer">
+                                        <img src="../img/Cinema-1.jpg" alt="Cinema">
+                                        <h3>Cinema</h3>
+                                        <p>Em sessão</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
                 </ul>
             </div>
         </section>
 
-
-
-
-
-
-
-
     </main>
+    <script type="text/javascript">
+        window.onload = function() {
+            (function(d, script) {
+                script = d.createElement('script');
+                script.type = 'text/javascript';
+                script.async = true;
+                script.src = 'https://w.app/widget-v1/h34vt5.js';
+                d.getElementsByTagName('head')[0].appendChild(script);
+            }(document));
+        };
+    </script>
 </body>
 
 </html>

@@ -20,6 +20,12 @@ $logado = $_SESSION['usuario'];
     <link rel="icon" href="../img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./../css/style.css">
     <style>
+        body,
+        textarea,
+        main {
+            height: 90vh;
+        }
+
         .b {
             height: 70vh;
         }
@@ -94,29 +100,45 @@ $logado = $_SESSION['usuario'];
     </style>
 </head>
 
-<body class="b">
-    <div class="container">
-        <header>
-            <div class="navbar-container">
-                <nav>
-                    <img class="logo" src="../img/logo.png">
-                    <ul class="navbar-items">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="../html/emalta.php">Em Alta</a></li>
-                        <li><a href="./sair.php" class="default-btn">Sair</a></li>
-                    </ul></b>
-                </nav>
-            </div>
-    </div>
 
+<div class="container">
+    <header>
+        <div class="navbar-container">
+            <nav>
+                <img class="logo" src="../img/logo.png">
+                <ul class="navbar-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="../html/emalta.php">Em Alta</a></li>
+                </ul></b>
+                <ul class="navbar-lv"><b>
+                        <li><a href="./sair.php" class="default-btn">Sair</a></li>
+                </ul></b>
+            </nav>
+        </div>
+</div>
+<div class="container2">
+    <header>
+        <div class="navbar-container2">
+            <nav>
+                <ul class="navbar-items2">
+                    <li><a href="https://www.adorocinema.com">Site de filmes recomendado</a></li>
+                    <li><a href="./sobcr.php"> Sobre o Criador</a></li>
+                    <li><a href="./redes.php">Redes Sociais</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</div>
+
+<body class="b">
     <main>
-        
+
         <div class="main-banner">
             <div class="teste">
                 <h1>Filmes de Marte</h1>
                 <?php
                 echo "Bem vindo <u>$logado</u>";
-            ?>
+                ?>
             </div>
         </div>
         <section class="specialties-container">
@@ -142,6 +164,17 @@ $logado = $_SESSION['usuario'];
             </ul>
         </section>
     </main>
+    <script type="text/javascript">
+                window.onload = function() {
+                    (function(d, script) {
+                        script = d.createElement('script');
+                        script.type = 'text/javascript';
+                        script.async = true;
+                        script.src = 'https://w.app/widget-v1/h34vt5.js';
+                        d.getElementsByTagName('head')[0].appendChild(script);
+                    }(document));
+                };
+            </script>
 </body>
 
 </html>
